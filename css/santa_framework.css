@@ -1,0 +1,61 @@
+/* Start with box-model */
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+/* End with box-model */
+
+/* Colors */
+.bg-white {
+    background-color: white;
+} 
+.c-black {
+    color: black;
+}
+/* Colors */
+
+/* Padding - margin - border */
+.p-20 {
+    padding: 20px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-0 {
+    padding: 0;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+/* Padding - margin - border */
+
+/* positions */
+.p-re {
+    position: relative;
+}
+/* positions */
+
+/* Fonts */
+.txt-c {
+    text-align: center;
+}
+.fs-14 {
+    font-size: 14px;
+}
+/* Fonts */
+
+/* media phone*/
+@media (max-width: 767px) {
+    .hide-phone {
+        display: none;
+    }
+}
+/* media phone*/
