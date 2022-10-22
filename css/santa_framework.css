@@ -1,3 +1,12 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+
 /* Start with box-model */
 .d-flex {
     display: flex;
@@ -20,6 +29,9 @@
 .p-20 {
     padding: 20px;
 }
+.p-15 {
+    padding: 15px;
+}
 .p-10 {
     padding: 10px;
 }
@@ -34,6 +46,9 @@
 }
 .rad-6 {
     border-radius: 6px;
+}
+.w-full {
+    width: 100%;
 }
 /* Padding - margin - border */
 
@@ -52,10 +67,21 @@
 }
 /* Fonts */
 
+/* Start Components */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* End Components */
+
 /* media phone*/
 @media (max-width: 767px) {
     .hide-phone {
         display: none;
     }
+}
+.of-hidden {
+    overflow: hidden;
 }
 /* media phone*/
